@@ -1,0 +1,183 @@
+Crie aplicativos web com HTML, CSS, JavaScript, PHP, PostgreSQL, Bootstrap, AngularJS e Laravel
+***********************************************************************************************
+
+Relação dos projetos por capítulo
+---------------------------------
+Pastas dos projetos na ordem em que são apresentados no livro.
+
+Capítulo 2 - Ferramentas de desenvolvimento
+  html-format-2
+
+Capítulo 3 - HTML
+  html-basics: elementos HTML (lista simples, lista enumerada e tabela)
+  html-format: formatação CSS para elementos HTML
+  html-input: entrada de dados (text e password) e submissão de dados (submit e reset) com formulário HTML
+  html-input-2: entrada de dados (...)
+
+Capítulo 4 - CSS
+  html-format-2: formatação CSS para criar tabela "zebrada"
+  html-format-regex: formatação CSS baseada em expressões regulares
+
+Capítulo 5 - Bootstrap
+  bootstrap-grid: dividindo a página HTML em colunas
+  bootstrap-grid-verne: dividindo a página HTML em colunas
+  bootstrap-quote: formatação do marcador blockquote
+  bootstrap-btn: formatação de botões
+  bootstrap-table: formatação de tabela
+  bootstrap-menu-vert: menu vertical
+  bootstrap-menu-hor: menu horizontal
+  bootstrap-carousel: apresentação de slides (carrossel)
+
+Capítulo 6 - JavaScript
+  javascript-hello:
+  javascript-decimal: biblioteca para representação decimal de números
+  javascript-escopo: escopo de variável
+  javascript-namespace: uso e criação de ambientes de nomes
+  javascript-ifelse: estrutura de decisão
+  javascript-ifelseif: estrutura de decisão
+  javascript-switch-case: estrutura de decisão
+  javascript-switch-sembreak: estrutura de decisão
+  javascript-for: estrutura de repetição
+  javascript-heranca: 
+  javascript-mootools: implementação de herança com a biblioteca Mootools
+
+Capítulo 7 - jQuery
+  jquery-event-window
+  jquery-event-kbd
+  jquery-events-3
+  jquery-sort
+  jquery-children
+  jquery-toggle
+  jquery-font-size
+
+Capítulo 8 - Gráficos com JavaScript
+  jqplot-1: plotagem de gráfico com a biblioteca jqPlot
+  jqplot-2: plotagem de gráfico com a biblioteca jqPlot
+  Chart.js-pie: plotagem de gráfico com a biblioteca Chart.js
+  Chart.js-radar: plotagem de gráfico com a biblioteca Chart.js
+  C3-1: plotagem de gráfico com a biblioteca C3
+  C3-2: plotagem de gráfico com a biblioteca C3
+
+Capítulo 9 - PHP
+  php-hello
+  php-tipos
+  php-array-1
+  php-array-2
+  php-array-3
+  php-array-sort
+  php-array-sort-2
+  php-array-sort-3
+  php-while: estrutura de repetição
+  php-loop-for: estrutura de repetição
+  php-get
+  php-classes
+  php-classes-heranca
+  php-classes-heranca-2
+  php-autoload
+  php-namespace
+  php-namespace-2
+
+Capítulo 10 - PHP - Acesso a banco de dados
+  php-db-sqlite: usando banco de dados SQLite
+
+Capítulo 11 - Aplicativo Ajax com PHP e JavaScript
+  php-cadastrar-cidades
+  php-xml-parser
+  php-ajax-jquery
+
+Capítulo 12 - Laravel
+  pessoas
+
+Capítulo 13 - Laravel – Desenvolvimento de um aplicativo
+  cidades
+
+Capítulo 14 - AngularJS
+  angular-01
+  angular-ngbind
+  angular-02
+  angular-notes
+  angular-filter-inverter
+  angular-filter-inverter-2
+  angular-pagination-numeros
+  angular-pagination-watch
+  angular-notes-bd
+
+Capítulo 15 - Autenticação e serviço de nuvem
+  angular-notes-auth
+
+
+Relação dos projeto em ordem alfabética
+---------------------------------------
+
+Pasta                       Capítulo
+--------------------------  --------
+angular-01                  14
+angular-02                  14
+angular-filter-inverter     14
+angular-filter-inverter-2   14
+angular-ngbind              14
+angular-notes               14
+angular-notes-auth          15
+angular-notes-bd            14
+angular-pagination-numeros  14
+angular-pagination-watch    14
+bootstrap-btn                5
+bootstrap-carousel           5
+bootstrap-grid               5
+bootstrap-grid-verne         5
+bootstrap-menu-hor           5
+bootstrap-menu-vert          5
+bootstrap-quote              5
+bootstrap-table              5
+C3-1                         8
+C3-2                         8
+Chart.js-pie                 8
+Chart.js-radar               8
+cidades                     13
+html-basics                  3
+html-format                  3
+html-format-2                2, 4
+html-format-regex            4
+html-input                   3
+html-input-2                 3
+javascript-decimal           6
+javascript-escopo            6
+javascript-for               6
+javascript-heranca           6
+javascript-ifelse            6
+javascript-ifelseif          6
+javascript-mootools          6
+javascript-namespace         6
+javascript-switch-case       6
+javascript-switch-sembreak   6
+jqplot-1                     8
+jqplot-2                     8
+jquery-children              7
+jquery-event-kbd             7
+jquery-event-window          7
+jquery-events-3              7
+jquery-font-size             7
+jquery-sort                  7
+jquery-toggle                7
+pessoas                     12
+php-ajax-jquery             11
+php-array-1                  9
+php-array-2                  9
+php-array-3                  9
+php-array-sort               9
+php-array-sort-2             9
+php-array-sort-3             9
+php-autoload                 9
+php-cadastrar-cidades       11
+php-classes                  9
+php-classes-heranca          9
+php-classes-heranca-2        9
+php-db-sqlite               10
+php-get                      9
+php-hello                    9
+php-loop-for                 9
+php-namespace                9
+php-namespace-2              9
+php-tipos                    9
+php-while                    9
+php-xml-parser              11

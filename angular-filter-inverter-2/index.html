@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<!--
+  O conteúdo deste arquivo é parte integrante do livro "Crie aplicativos web com
+  HTML, CSS, JavaScript, PHP, PostgreSQL, Bootstrap, AngularJS e Laravel"
+  Wilson Kawano
+-->
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>AngularJS - Filtro</title>
+
+    <script src="js/angular.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div ng-app="main">
+      <p>Texto: <input type="text" ng-model="nome"/></p>
+      <p> {{ nome | inverter : "<<<" : ">>>" | uppercase}} </p>
+    </div>
+  </body>
+</html>

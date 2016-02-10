@@ -1,0 +1,25 @@
+/*
+ * O conteúdo deste arquivo é parte integrante do livro "Crie aplicativos web 
+ * com HTML, CSS, JavaScript, PHP, PostgreSQL, Bootstrap, AngularJS e Laravel"
+ * Wilson Kawano
+ */
+
+.italico {
+  font-style: italic;
+}
+
+.negrito {
+  font-weight: bold;
+}
+
+.fonte_normal {
+  font-size: 1em;
+}
+
+.fonte_medio {
+  font-size: 1.5em;
+}
+
+.fonte_grande {
+  font-size: 2em;
+}

@@ -1,0 +1,84 @@
+<!doctype html>
+<!--
+  O conteúdo deste arquivo é parte integrante do livro "Crie aplicativos web com
+  HTML, CSS, JavaScript, PHP, PostgreSQL, Bootstrap, AngularJS e Laravel"
+  Wilson Kawano
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap slide show</title>
+</head>
+<body>
+  <div class="container">
+    <!-- Carrossel com imagens -->
+    <div id="img-carousel" class="carousel slide">
+
+    <!-- Slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="img/img-1.jpg" alt="Cloud"/>
+          <div class="carousel-caption">
+            <h1>Fractal 1</h1>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/img-2.jpg" alt="Computer"/>
+          <div class="carousel-caption">
+            <h1>Fractal 2</h1>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/img-3.jpg" alt="Cloud"/>
+          <div class="carousel-caption">
+            <h1>Fractal 3</h1>
+          </div>
+        </div>
+      </div>
+
+      <!-- Seletor para selecionar o slide anterior -->
+      <a class="carousel-control left" href="#img-carousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+
+      <!-- Seletor para selecionar o slide seguinte -->
+      <a class="carousel-control right" href="#img-carousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+
+      <!-- Seletor de acesso direto a um slide-->
+      <ol class="carousel-indicators">
+        <li data-target="#img-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#img-carousel" data-slide-to="1"></li>
+        <li data-target="#img-carousel" data-slide-to="2"></li>
+      </ol>
+
+    </div>  <!-- carousel -->
+  </div>  <!-- container-->
+
+  <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+  <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.min.css" />
+
+  <script>
+    $().ready($(function() {
+      $(".carousel").carousel({
+        interval: 2000
+      });
+    }));
+  </script>
+
+  <style>
+  /*
+    body {
+      padding-bottom: 40px;
+      color: #5A5A5A;
+    }
+*/
+    .carousel-inner > .item > img {
+      margin: 0 auto;
+    }
+  </style>
+</body>
+</html>

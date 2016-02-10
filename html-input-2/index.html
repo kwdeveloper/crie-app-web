@@ -1,0 +1,47 @@
+<!doctype html>
+<!--
+  O conteúdo deste arquivo é parte integrante do livro "Crie aplicativos web com
+  HTML, CSS, JavaScript, PHP, PostgreSQL, Bootstrap, AngularJS e Laravel"
+  Wilson Kawano
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Teste</title>
+  </head>
+  <body>
+    <form action="http://www.meusite.com" method="get">
+      Sua nota
+      <select name="nota">
+        <option value="0">Ruim
+        <option value="1">Regular
+        <option value="2">Bom
+        <option value="4">Excelente
+      </select>
+
+      <br><br>
+
+      Combustível<br>
+      <input type="radio" name="combustivel" value="E" checked/>Etanol<br>
+      <input type="radio" name="combustivel" value="G"/>Gasolina<br>
+
+      <br>
+
+      Pratos preferidos<br>
+      <input type="checkbox" name="prato" value="p1">Churrasco<br>
+      <input type="checkbox" name="prato" value="p2">Feijoada<br>
+      <input type="checkbox" name="prato" value="p3">Pizza<br>
+      <input type="checkbox" name="prato" value="p4">Vatapá<br>
+
+      <br>
+
+      Sua mensagem<br>
+      <textarea rows="10" cols="50" name="mensagem" placeholder="Digite aqui a sua mensagem ..."></textarea>
+
+      <br><br>
+
+      <input type="submit">
+      <input type="reset">
+    </form>
+  </body>
+</html>

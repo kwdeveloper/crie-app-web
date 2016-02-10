@@ -1,0 +1,27 @@
+/*
+ * O conteúdo deste arquivo é parte integrante do livro "Crie aplicativos web 
+ * com HTML, CSS, JavaScript, PHP, PostgreSQL, Bootstrap, AngularJS e Laravel"
+ * Wilson Kawano
+ */
+
+/* Tabela */
+th {
+  background-color: #a0a0a0;
+}
+
+tr:nth-child(odd) {
+  background-color: #e7d15a;
+}
+
+tr:nth-child(even) {
+  background-color: #65dccd;
+}
+
+td:hover {
+  background-color: #ffffff;
+}
+
+/* Parágrafos */
+p::first-letter {
+  font-size: 1.5em;
+}

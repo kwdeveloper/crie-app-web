@@ -1,0 +1,19 @@
+<!doctype html>
+<!--
+  O conteúdo deste arquivo é parte integrante do livro "Crie aplicativos web com
+  HTML, CSS, JavaScript, PHP, PostgreSQL, Bootstrap, AngularJS e Laravel"
+  Wilson Kawano
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Angular - Diretiva ng-bind</title>
+  <script src="js/angular.min.js"></script>  
+</head>
+<body>
+  <div ng-app="">
+    <p>Saldo: <input type="number" ng-model="saldo" /></p>
+    <p ng-bind="saldo | currency"></p>
+  </div>
+</body>
+</html>

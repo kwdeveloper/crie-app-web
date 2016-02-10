@@ -1,0 +1,42 @@
+<!doctype html>
+<!--
+  O conteúdo deste arquivo é parte integrante do livro "Crie aplicativos web com
+  HTML, CSS, JavaScript, PHP, PostgreSQL, Bootstrap, AngularJS e Laravel"
+  Wilson Kawano
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AngularJS - Anotações</title>
+
+  <script src="js/angular.min.js"></script>  
+</head>
+<body>
+  <div class="container">
+    <div ng-app="main" ng-controller="mainController">
+      <h2>Anotações</h2>
+
+      <p>
+        <textarea ng-model="texto" class="form-control" rows="5"></textarea>
+      </p>
+      <p>
+        <button class="btn-default" ng-click="save()">Gravar</button>
+        <button class="btn-default" ng-click="clear()">Limpar</button>
+      </p>
+      <p>
+        Caracteres: <span ng-bind="textSize()"></span>
+      </p>
+
+      <div ng-repeat="nota in notas">
+        <strong>{{ nota.data }}</strong>
+        <br>
+        <p>{{ nota.msg }}</p>
+      </div>
+    </div>
+  </div>  
+  
+  <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+  <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.min.css" />
+  <script src="js/scripts.js"></script>
+</body>
+</html>

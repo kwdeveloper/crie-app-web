@@ -1,0 +1,28 @@
+/*
+ * O conteúdo deste arquivo é parte integrante do livro "Crie aplicativos web 
+ * com HTML, CSS, JavaScript, PHP, PostgreSQL, Bootstrap, AngularJS e Laravel"
+ * Wilson Kawano
+ */
+
+a {
+  font-family: Verdana;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+a[href ^= "ftp:"] {
+  color: #f8e50c;
+}
+
+a[href *= "CSS"] {
+  color: #999999;
+}
+
+a[href $= "HTML"] {
+  color: #add8e6;
+}
+
+h1[tipo = "ftp"] {
+  color: #63b50f;
+}
+

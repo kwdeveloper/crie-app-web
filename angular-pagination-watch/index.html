@@ -1,0 +1,60 @@
+<!doctype html>
+<!--
+  O conteúdo deste arquivo é parte integrante do livro "Crie aplicativos web com
+  HTML, CSS, JavaScript, PHP, PostgreSQL, Bootstrap, AngularJS e Laravel"
+  Wilson Kawano
+-->
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>AngularJS - Teste de paginação client side - watch</title>
+
+  <!-- Scripts -->
+  <script src="js/angular.js"></script>
+  <script src="js/ui-bootstrap-tpls-0.12.0.min.js"></script>
+  <script src="js/app.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css"></link>
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css"></link>
+</head>
+<body ng-app="main" ng-controller="control_1">
+  <div class="container">
+    <h3>Paginação client side - $watch</h3>
+
+    <!-- Botões incluir/excluir elementos -->
+    <div>
+      <button ng-click="incluir()">Incluir</button>
+      <button ng-click="excluir()">Excluir</button>
+    </div>
+
+    <!-- Apresentação dos dados -->
+    <table>
+      <tr ng-repeat="x in lista">
+        <td>{{x}}</td>
+      </tr>
+    </table>
+
+    <!-- Controle de paginação -->
+    <div>
+      <pagination
+        boundary-links="true"
+        class="pagination-sm"
+
+        first-text="&laquo;"
+        previous-text="&lsaquo;"
+        next-text="&rsaquo;"
+        last-text="&raquo;"
+
+        max-size="5"
+        rotate="false"
+
+        items-per-page="elementosPorPagina"
+        ng-model="pagina"
+        total-items="numeroItens"
+      >
+      </pagination>
+    </div>
+  </div>
+</body>
+</html>

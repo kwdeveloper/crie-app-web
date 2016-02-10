@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<!--
+  NOTA
+
+  O conteúdo deste arquivo é parte integrante do livro "Crie aplicativos
+  web com HTML, CSS, JavaScript, PHP, PostgreSQL, Bootstrap, AngularJS e
+  Laravel"
+  Wilson Kawano
+
+  O código-fonte pode ser livremente usado desde que o conteúdo da presente
+  NOTA não seja suprimido
+-->
+<html>
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <title>AngularJS - Anotações</title>
+
+      <!-- Scripts -->
+      <script src="js/angular.js"></script>
+      <script src="js/ui-bootstrap-tpls-0.12.0.min.js"></script>
+      <script src="js/scripts.js"></script>
+    </head>
+    <body  ng-app="notes" ng-controller="notesController">
+      <div class="container">
+        <form>
+          <!-- Cabeçalho -->
+          <div class="form-group">
+            <h4>Minhas Anotações</h4>
+          </div>
+
+          <!-- Número de caracteres e mensagens de erro/confirmação -->
+          <form class="form-inline" role="form">
+            <div class="row">
+              <div class="col-xs-3">
+                <p>Ch: <span ng-bind="textSize()"></span></p>
+              </div>
+              <div class="col-xs-9">
+                <p ng-model="mensagem">{{ mensagem }}</p>
+              </div>
+            </div>
+          </form>
+
+          <!-- Caixa de texto para digitação -->
+          <div class="form-group">
+            <textarea ng-model="texto" class="form-control" rows="5"></textarea>
+          </div>
+        </form>
+
+        <!-- Botões para gravar, alterar, excluir notas -->
+        <form class="form-inline" role="form">
+          <button class="btn btn-default btn-sm" ng-click="save()" title="Gravar nova nota">
+            <span class="glyphicon glyphicon-plus"></span>
+          </button>
+
+          <button class="btn btn-default btn-sm" ng-click="update()" ng-show="showBtnDelUpd"
+            title="Gravar alteração">
+            <span class="glyphicon glyphicon-ok"></span>
+          </button>
+
+          <button class="btn btn-default btn-sm" ng-click="delete()" ng-show="showBtnDelUpd"
+            title="Eliminar nota">
+            <span class="glyphicon glyphicon-remove"></span>
+          </button>
+
+          <!-- Limpar caixa de texto -->
+          <button class="btn btn-default btn-sm" ng-click="clear()" title="Limpar">
+            <span class="glyphicon glyphicon-refresh"></span>
+          </button>
+        </form>
+
+        <hr />
+
+        <!-- Lista as notas gravadas -->
+        <form>
+          <div class="form-group">
+            <div ng-repeat="nota in notas">
+              <a ng-click="select(nota.id, nota.texto)"><strong>{{ nota.tstamp }}</strong></a>
+              <br>
+              <p>{{ nota.texto }}</p>
+            </div>
+          </div>
+        </form>
+
+        <!-- Controles de paginação -->
+        <div>
+          <pagination
+            boundary-links="true"
+            class="pagination-sm"
+            max-size="5"
+            rotate="false"
+
+            first-text="&laquo;"
+            previous-text="&lsaquo;"
+            next-text="&rsaquo;"
+            last-text="&raquo;"
+
+            items-per-page="ELEMENTOS_POR_PAGINA"
+            ng-model="pagina"
+            total-items="numeroItens"
+          >
+          </pagination>
+        </div>
+      </div> <!-- container -->
+
+      <!-- CSS -->
+      <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+      <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.min.css" />
+    </body>
+</html>

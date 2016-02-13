@@ -9,101 +9,101 @@ Capítulo 2 - Ferramentas de desenvolvimento
   html-format-2
 
 Capítulo 3 - HTML
-  html-basics: elementos HTML (lista simples, lista enumerada e tabela)
-  html-format: formatação CSS para elementos HTML
-  html-input: entrada de dados (text e password) e submissão de dados (submit e reset) com formulário HTML
-  html-input-2: entrada de dados (...)
+  html-basics: elementos HTML (lista simples, lista enumerada e tabela).
+  html-format: formatação CSS para elementos HTML.
+  html-input: entrada de dados (text e password) e submissão de dados (submit e reset) com formulário HTML.
+  html-input-2: entrada de dados combo-box, seletor de rádio, seleção múltipla e caixa de texto.
 
 Capítulo 4 - CSS
-  html-format-2: formatação CSS para criar tabela "zebrada"
-  html-format-regex: formatação CSS baseada em expressões regulares
+  html-format-2: formatação CSS para criar tabela "zebrada".
+  html-format-regex: formatação CSS baseada em expressões regulares.
 
 Capítulo 5 - Bootstrap
-  bootstrap-grid: dividindo a página HTML em colunas
-  bootstrap-grid-verne: dividindo a página HTML em colunas
-  bootstrap-quote: formatação do marcador blockquote
-  bootstrap-btn: formatação de botões
-  bootstrap-table: formatação de tabela
-  bootstrap-menu-vert: menu vertical
-  bootstrap-menu-hor: menu horizontal
-  bootstrap-carousel: apresentação de slides (carrossel)
+  bootstrap-grid: divisão de uma página HTML em colunas.
+  bootstrap-grid-verne: divisão de uma página HTML em colunas.
+  bootstrap-quote: formatação do marcador blockquote.
+  bootstrap-btn: formatação de botões.
+  bootstrap-table: formatação de tabela.
+  bootstrap-menu-vert: menu vertical.
+  bootstrap-menu-hor: menu horizontal.
+  bootstrap-carousel: apresentação de slides (carrossel).
 
 Capítulo 6 - JavaScript
-  javascript-hello:
-  javascript-decimal: biblioteca para representação decimal de números
-  javascript-escopo: escopo de variável
-  javascript-namespace: uso e criação de ambientes de nomes
-  javascript-ifelse: estrutura de decisão
-  javascript-ifelseif: estrutura de decisão
-  javascript-switch-case: estrutura de decisão
-  javascript-switch-sembreak: estrutura de decisão
-  javascript-for: estrutura de repetição
-  javascript-heranca: 
-  javascript-mootools: implementação de herança com a biblioteca Mootools
+  javascript-hello: exemplo básico "hello, world".
+  javascript-decimal: biblioteca para representação decimal de números.
+  javascript-escopo: escopo de variável.
+  javascript-namespace: uso e criação de ambientes de nomes.
+  javascript-ifelse: estrutura de decisão.
+  javascript-ifelseif: estrutura de decisão.
+  javascript-switch-case: estrutura de decisão.
+  javascript-switch-sembreak: estrutura de decisão.
+  javascript-for: estrutura de repetição.
+  javascript-heranca: implementação de herança com JavaScript.
+  javascript-mootools: implementação de herança com a biblioteca Mootools.
 
 Capítulo 7 - jQuery
-  jquery-event-window
-  jquery-event-kbd
-  jquery-events-3
-  jquery-sort
-  jquery-children
-  jquery-toggle
-  jquery-font-size
+  jquery-event-window: ação vinculada ao redimensionamento da janela do navegador.
+  jquery-event-kbd: ação vinculada ao acionamento do teclado.
+  jquery-events-3: ação vinculada à passagem do mouse sobre o elemento.
+  jquery-sort: ordenação de uma lista.
+  jquery-children: seleção dos filhos de um elemento.
+  jquery-toggle: controle de visibilidade de um elemento.
+  jquery-font-size: controle da formatação de um elemento.
 
 Capítulo 8 - Gráficos com JavaScript
-  jqplot-1: plotagem de gráfico com a biblioteca jqPlot
-  jqplot-2: plotagem de gráfico com a biblioteca jqPlot
-  Chart.js-pie: plotagem de gráfico com a biblioteca Chart.js
-  Chart.js-radar: plotagem de gráfico com a biblioteca Chart.js
-  C3-1: plotagem de gráfico com a biblioteca C3
-  C3-2: plotagem de gráfico com a biblioteca C3
+  jqplot-1: plotagem de gráfico com a biblioteca jqPlot.
+  jqplot-2: plotagem de gráfico com a biblioteca jqPlot.
+  Chart.js-pie: plotagem de gráfico com a biblioteca Chart.js.
+  Chart.js-radar: plotagem de gráfico com a biblioteca Chart.js.
+  C3-1: plotagem de gráfico com a biblioteca C3.
+  C3-2: plotagem de gráfico com a biblioteca C3.
 
 Capítulo 9 - PHP
-  php-hello
-  php-tipos
-  php-array-1
-  php-array-2
-  php-array-3
-  php-array-sort
-  php-array-sort-2
-  php-array-sort-3
-  php-while: estrutura de repetição
-  php-loop-for: estrutura de repetição
-  php-get
-  php-classes
-  php-classes-heranca
-  php-classes-heranca-2
-  php-autoload
-  php-namespace
-  php-namespace-2
+  php-hello: exemplo básico "hello, world".
+  php-tipos: tipos de dados do PHP.
+  php-array-1: inclusão de elemento em array.
+  php-array-2: inclusão de elemento em array.
+  php-array-3: inclusão de elemento em array.
+  php-array-sort-1: ordenação de array com asort().
+  php-array-sort-2: ordenação de array com sort().
+  php-array-sort-3: ordenação de array com uasort().
+  php-while: estrutura de repetição.
+  php-loop-for: estrutura de repetição.
+  php-get: uso da variável $_GET.
+  php-classes: programação OO com PHP.
+  php-classes-heranca: programação OO com PHP (herança).
+  php-classes-heranca-2: programação OO com PHP (classe abstrata).
+  php-autoload: uso de __autoload() para carregar definição de uma classe.
+  php-namespace: definição de um ambiente de nomes.
+  php-namespace-2: definição de um ambiente de nomes.
 
 Capítulo 10 - PHP - Acesso a banco de dados
-  php-db-sqlite: usando banco de dados SQLite
+  php-db-sqlite: operações básicas com o SQLite.
 
 Capítulo 11 - Aplicativo Ajax com PHP e JavaScript
-  php-cadastrar-cidades
-  php-xml-parser
-  php-ajax-jquery
+  php-cadastrar-cidades: preenchimento de uma tabela de banco de dados com informações sobre as cidades do Brasil no formato CSV.
+  php-xml-parser: preenchimento de uma tabela de banco de dados com informações sobre as cidades do Brasil no formato XML.
+  php-ajax-jquery: consulta à tabela de cidades usando Ajax.
 
 Capítulo 12 - Laravel
-  pessoas
+  pessoas: aplicativo cadastro com informações sobre pessoas.
 
 Capítulo 13 - Laravel – Desenvolvimento de um aplicativo
-  cidades
+  cidades: aplicativo com informações sobre as cidades do Brasil incluindo a localização geográfica via Google Maps.
 
 Capítulo 14 - AngularJS
-  angular-01
-  angular-ngbind
-  angular-02
-  angular-notes
-  angular-filter-inverter
-  angular-filter-inverter-2
-  angular-pagination-numeros
-  angular-pagination-watch
-  angular-notes-bd
+  angular-01: exemplo básico.
+  angular-ngbind: uso da diretiva ng-bind.
+  angular-02: soma de dois valores.
+  angular-notes: aplicativo gerenciador de anotações.
+  angular-filter-inverter: filtragem de dados.
+  angular-filter-inverter-2: filtragem de dados.
+  angular-pagination-numeros: paginação de dados.
+  angular-pagination-watch: paginação de dados.
+  angular-notes-bd: aplicativo gerenciador de anotações com gravação em banco de dados.
 
 Capítulo 15 - Autenticação e serviço de nuvem
-  angular-notes-auth
+  angular-notes-auth: aplicativo gerenciador de anotações com gravação em banco de dados e autenticação via API do Facebook.
 
 
 Relação dos projeto em ordem alfabética

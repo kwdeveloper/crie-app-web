@@ -51,12 +51,12 @@ Capítulo 7 - jQuery
   jquery-font-size: controle da formatação de um elemento.
 
 Capítulo 8 - Gráficos com JavaScript
-  jqplot-1: plotagem de gráfico com a biblioteca jqPlot.
-  jqplot-2: plotagem de gráfico com a biblioteca jqPlot.
-  Chart.js-pie: plotagem de gráfico com a biblioteca Chart.js.
-  Chart.js-radar: plotagem de gráfico com a biblioteca Chart.js.
-  C3-1: plotagem de gráfico com a biblioteca C3.
-  C3-2: plotagem de gráfico com a biblioteca C3.
+  jqplot-1: gráfico de linhas usando a biblioteca jqPlot.
+  jqplot-2: gráfico de linhas com legendas usando a biblioteca jqPlot.
+  Chart.js-pie: gráficos de setores usando a biblioteca Chart.js.
+  Chart.js-radar: gráfico do tipo radar usando a biblioteca Chart.js.
+  C3-1: gráfico de linhas usando a biblioteca vetorial C3.
+  C3-2: gráfico de linhas com legendas usando a biblioteca vetorial C3.
 
 Capítulo 9 - PHP
   php-hello: exemplo básico "hello, world".
@@ -69,11 +69,11 @@ Capítulo 9 - PHP
   php-array-sort-3: ordenação de array com uasort().
   php-while: estrutura de repetição.
   php-loop-for: estrutura de repetição.
-  php-get: uso da variável $_GET.
+  php-get: recuperação de dados do cliente usando a variável $_GET.
   php-classes: programação OO com PHP.
   php-classes-heranca: programação OO com PHP (herança).
   php-classes-heranca-2: programação OO com PHP (classe abstrata).
-  php-autoload: uso de __autoload() para carregar definição de uma classe.
+  php-autoload: uso de __autoload() para carregar uma classe.
   php-namespace: definição de um ambiente de nomes.
   php-namespace-2: definição de um ambiente de nomes.
 
@@ -81,12 +81,12 @@ Capítulo 10 - PHP - Acesso a banco de dados
   php-db-sqlite: operações básicas com o SQLite.
 
 Capítulo 11 - Aplicativo Ajax com PHP e JavaScript
-  php-cadastrar-cidades: preenchimento de uma tabela de banco de dados com informações sobre as cidades do Brasil no formato CSV.
-  php-xml-parser: preenchimento de uma tabela de banco de dados com informações sobre as cidades do Brasil no formato XML.
-  php-ajax-jquery: consulta à tabela de cidades usando Ajax.
+  php-cadastrar-cidades:  preenchimento de uma tabela de banco de dados a partir de um arquivo CSV contendo informações sobre as cidades do Brasil.
+  php-xml-parser: preenchimento de uma tabela de banco de dados a partir de um arquivo XML contendo informações sobre as cidades do Brasil.
+  php-ajax-jquery: consulta à tabela de cidades usando a técnica Ajax.
 
 Capítulo 12 - Laravel
-  pessoas: aplicativo cadastro com informações sobre pessoas.
+  pessoas: aplicativo de cadastro com informações sobre pessoas.
 
 Capítulo 13 - Laravel – Desenvolvimento de um aplicativo
   cidades: aplicativo com informações sobre as cidades do Brasil incluindo a localização geográfica via Google Maps.

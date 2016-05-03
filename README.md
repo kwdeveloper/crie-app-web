@@ -1,6 +1,6 @@
 ####Crie aplicativos web com HTML, CSS, JavaScript, PHP, PostgreSQL, Bootstrap, AngularJS e Laravel
 
-Este repositório contém os códigos-fonte dos programas de exemplo do livro [Crie aplicativos web com HTML, CSS, JavaScript, PHP, PostgreSQL, Bootstrap, AngularJS e Laravel](http://www.lcm.com.br).
+Este repositório contém os códigos-fonte dos programas de exemplo do livro [Crie aplicativos web com HTML, CSS, JavaScript, PHP, PostgreSQL, Bootstrap, AngularJS e Laravel](http://www.lcm.com.br/site/#livros/detalhesLivro/crie-aplicativos-web-com-html--css--javascript--php--postgresql--bootstrap--angularjs-e-laravel.html).
 
 O livro foi escrito para profissionais, estudantes e autodidatas que já conhecem os elementos básicos de uma linguagem de programação e têm interesse em desenvolver aplicativos web.
 

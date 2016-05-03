@@ -2,7 +2,7 @@
 
 Esta pasta contém um aplicativo de cadastro de notas (anotações) composto de uma interface de usuário desenvolvida em [AngularJS](https://angularjs.org/) e um backend codificado em PHP.
 
-O código-fonte do aplicativo é parte integrante do livro [Crie aplicativos web com HTML, CSS, JavaScript, PHP, PostgreSQL, Bootstrap, AngularJS e Laravel](http://lcm.com.br/) de autoria de Wilson Kawano
+O código-fonte do aplicativo é parte integrante do livro [Crie aplicativos web com HTML, CSS, JavaScript, PHP, PostgreSQL, Bootstrap, AngularJS e Laravel](http://www.lcm.com.br/site/#livros/detalhesLivro/crie-aplicativos-web-com-html--css--javascript--php--postgresql--bootstrap--angularjs-e-laravel.html) de autoria de Wilson Kawano
 
 ###Configuração
 No arquivo sql.php, função executeSql(), configure o nome do banco de dados, usuário e senha do seu ambiente de desenvolvimento.

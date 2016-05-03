@@ -2,7 +2,7 @@
 
 Esta pasta contém um aplicativo desenvolvido em Laravel para mostrar a localização geográfica de todas as cidades do Brasil. As informações referentes às cidades são dados do IBGE. A apresentação da localização geográfica de uma cidade baseia-se numa API do Google Maps.
 
-O código-fonte do aplicativo é parte integrante do livro [Crie aplicativos web com HTML, CSS, JavaScript, PHP, PostgreSQL, Bootstrap, AngularJS e Laravel](http://lcm.com.br) de autoria de Wilson Kawano. O aplicativo pode ser livremente usado desde que o conteúdos das NOTAS presentes nos códigos-fonte não sejam suprimidos.
+O código-fonte do aplicativo é parte integrante do livro [Crie aplicativos web com HTML, CSS, JavaScript, PHP, PostgreSQL, Bootstrap, AngularJS e Laravel](http://www.lcm.com.br/site/#livros/detalhesLivro/crie-aplicativos-web-com-html--css--javascript--php--postgresql--bootstrap--angularjs-e-laravel.html) de autoria de Wilson Kawano. O aplicativo pode ser livremente usado desde que o conteúdos das NOTAS presentes nos códigos-fonte não sejam suprimidos.
 
 ###Pre-requisitos para instalação do aplicativo
 

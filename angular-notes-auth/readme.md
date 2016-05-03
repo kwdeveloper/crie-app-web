@@ -2,7 +2,7 @@
 
 Esta pasta contém um aplicativo de cadastro de notas composto de uma interface de usuário desenvolvida em [AngularJS](https://angularjs.org/) e um backend codificado em PHP. Além dos recursos básicos para adicionar, alterar, apresentar e excluir anotações, o aplicativo inclui também um esquema de autenticação de usuário baseado numa API do Facebook.
 
-O código-fonte do aplicativo é parte integrante do livro [Crie aplicativos web com HTML, CSS, JavaScript, PHP, PostgreSQL, Bootstrap, AngularJS e Laravel](http://lcm.com.br/) de autoria de Wilson Kawano. O aplicativo pode ser livremente usado desde que os conteúdos das NOTAS presentes nos códigos-fonte não sejam suprimidos.
+O código-fonte do aplicativo é parte integrante do livro [Crie aplicativos web com HTML, CSS, JavaScript, PHP, PostgreSQL, Bootstrap, AngularJS e Laravel](http://www.lcm.com.br/site/#livros/detalhesLivro/crie-aplicativos-web-com-html--css--javascript--php--postgresql--bootstrap--angularjs-e-laravel.html) de autoria de Wilson Kawano. O aplicativo pode ser livremente usado desde que os conteúdos das NOTAS presentes nos códigos-fonte não sejam suprimidos.
 
 ###Configuração
 No arquivo sql.php, função executeSql(), configure o nome do banco de dados, usuário e senha do seu ambiente de desenvolvimento.
